@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        Welcome to <?= "Blocks" ?>
+<?php
 
-    </body>
-</html>
+require 'includes/bootstrap.inc.php';
+
+new WelcomePage();

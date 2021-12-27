@@ -12,6 +12,10 @@ include 'includes/asserts.inc.php';
 
 callSuite('testoftest/testoftest');
 
+#### PLACE FOR CUSTOM callSuite(...)
+
+####
+
 if ($testsFailed) {
     exit(1);
 }
