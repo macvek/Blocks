@@ -1,0 +1,1 @@
+docker run -t --rm --name blocks-tests -v ${pwd}/../tests/:/tests -w /tests php:8.1-rc php tests.php

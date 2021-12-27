@@ -1,0 +1,1 @@
+docker run -i -t --rm --name blocks-shell -v ${pwd}/../www:/var/www -v ${pwd}/..:/system -w /system php:8.1-rc /bin/bash
